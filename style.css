@@ -11,7 +11,7 @@ header{
     background-color: rgba(182, 49, 187, 0.212);
     text-align: center;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
     color: rgb(8, 8, 8);
 }
 
@@ -42,10 +42,11 @@ header ul li a:hover{
 
 
 header button{
+    color: white;
     font-size: 1rem;
     padding: 1rem;
     border-radius: .5rem;
-    background-color: rgba(47, 180, 47, 0.493);
+    background-color: rgba(10, 20, 163, 0.856);
 }
 
 header button:hover{
@@ -67,7 +68,7 @@ header button:hover{
     font-size: 2rem;
     padding: 4rem;
     position: relative;
-    width: 40rem;
+    /* width: 40rem */
  
 }
 
