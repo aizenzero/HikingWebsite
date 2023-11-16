@@ -1,4 +1,4 @@
-@media (max-width:1300px) {
+@media(max-width:1300px) {
 
     .third-container{
         display: grid;
@@ -19,11 +19,80 @@
     
 }
 
+
+
+
+@media (max-width: 690px) {
+
+    header ul li a{
+        display: none;
+    }
+
+    .first-container h2{
+        font-size: 2rem;
+        padding-left: 5rem;
+        margin-top: 5rem;
+    }
+
+
+
+    .about-first img{
+        width: 80%;
+    }
+    
+
+
+
+    .second-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4rem auto auto;
+        gap: 2rem;
+        text-align: center;
+        align-items:center;
+        background-image: url(./image/b6.jpg);
+        background-position: center;
+        background-size: cover;
+       
+    }
+
+
+    .about-title{
+        grid-column: span 1;
+    }
+    .about-second p{
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
 @media (max-width:600px) {
+
+    header button{
+        font-size: 1rem;
+        padding: .5rem;
+        border-radius: .5rem;
+        background-color: rgba(47, 180, 47, 0.493);
+    }
+    
+
 
     .first-container p{
        font-size: 1.5rem;
-       align-items: flex-start;
+       padding: 1rem;
+       margin-top: 1rem;
+       /* align-items: flex-start; */
+       width: 20rem;
+       text-align: center;
+    
     }
 
 
@@ -41,7 +110,7 @@
     }
 
     .third-container .card img{
-        width: 50%;
+        width: 40%;
         height: 40%;
     }
 
@@ -68,52 +137,3 @@
 
 
 
-
-
-@media (max-width: 690px) {
-
-    header ul li a{
-        display: none;
-    }
-
-    .first-container p{
-        font-size: 2rem;
-        padding: 2rem;
-        position: relative;
-        width: 30rem;
-     
-    }
-    .first-container h2{
-        font-size: 2rem;
-        padding-left: 5rem;
-        margin-top: 5rem;
-    }
-    
-
-
-
-
-
-
-    .second-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 4rem auto auto;
-        gap: 2rem;
-        text-align: center;
-        align-items:center;
-        background-image: url(./image/b6.jpg);
-        background-position: center;
-        background-size: cover;
-       
-    }
-
-
-    .about-title{
-        grid-column: span 1;
-    }
-    .about-second p{
-        padding: 1rem;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
